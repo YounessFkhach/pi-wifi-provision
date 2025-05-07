@@ -4,17 +4,12 @@ This project enables a Raspberry Pi (Zero or 4) to automatically boot into a con
 
 ## 🔧 Features
 
-    Auto-starts a Wi-Fi hotspot when not connected
-
-    Web interface to configure Wi-Fi credentials
-
-    Supports WPA/WPA2 and open networks
-
-    Works with NetworkManager
-
-    Automatic fallback to hotspot if connection fails
-
-    Built-in service control and connection validation
+- Auto-starts a Wi-Fi hotspot when not connected
+- Web interface to configure Wi-Fi credentials
+- Supports WPA/WPA2 and open networks
+- Works with NetworkManager
+- Automatic fallback to hotspot if connection fails
+- Built-in service control and connection validation
 
 ## ⚙️ How It Works
 
@@ -53,10 +48,8 @@ sudo ./install.sh
 
 The configuration form is mobile-friendly and modern:
 
-    📶 SSID input
-
-    🔐 Encryption type selector
-
-    🔑 Password field
+- 📶 SSID input
+- 🔐 Encryption type selector
+- 🔑 Password field
 
 Access it via http://10.0.0.1 when in configuration mode.
